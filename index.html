@@ -3,7 +3,7 @@
   <head>
     <title>Vaibhav Gawande Portfolio</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-	
 <style>
 
 /*======================================
@@ -33,6 +32,39 @@
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+.about-section {
+  text-align: center;
+}
+
+/* Modify the existing styles for the About section content */
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Adjust the margin for the About section */
+.about-section {
+  margin: 20px auto; /* Set margin to center the section */
+}
+
+/* Add this CSS rule for the container of the skills and about sections */
+.content-container {
+  max-width: 800px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Update the skills container styles */
+.skills-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .about-mf .about-img {
@@ -108,33 +140,13 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
-
- <style>
-    /* Add your existing styles here */
-
-    /* Media query for mobile devices */
-    @media only screen and (max-width:600px) 
-	{
-      .img-about {
-        width: 100%;
-      }
-    }
-
-    /* Media query for desktop devices */
-    @media (min-width: 600px) {
-      .img-about {
-        width: 50%; /* Adjust the width as per your design */
-        float: left;
-      }
-      .about-info {
-        margin-left: 60%; /* Adjust the margin as per your design */
-      }
-    }
+.about-img{
+	display: flex;
+	justify-content: center;
+}
 
 
-
-
-
+	
 </style>
 
 
@@ -185,7 +197,7 @@
 						// Create an array of typing text
 						const typingTexts = [
 					
-						'Data Analyst  '
+						'Aspiring Data Analyst  '
 			
 						];
 
@@ -231,7 +243,7 @@
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<div class="row d-flex">
+				<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
@@ -254,9 +266,9 @@
 
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
+									<span>SQL</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
@@ -291,7 +303,7 @@
 					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
-								<div class="row d-flex justify-content-center">  
+								
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
 								
