@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Your existing styles */
+        .ftco-section {
+            /* Your styles for larger screens */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .ftco-section {
+                /* Your styles for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your existing HTML code -->
+</body>
+
+</html>
