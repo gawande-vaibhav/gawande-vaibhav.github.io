@@ -23,7 +23,27 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-
+<style>
+		body {
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+	
+		.about-section {
+		  display: flex;
+		  flex-direction: row; /* Horizontal layout by default */
+		  justify-content: space-around;
+		  align-items: center;
+		  padding: 20px;
+		}
+	
+		@media only screen and (max-width: 600px) {
+		  .about-section {
+			flex-direction: column; /* Vertical layout for screens 600px and below */
+		  }
+		}
 <style>
 
 /*======================================
